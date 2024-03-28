@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Facebook } from "lucide-react";
 import { Instagram } from "lucide-react";
 import { Youtube } from "lucide-react";
+import { Phone } from 'lucide-react';
+
 
 export default function Footer() {
   return (
@@ -75,6 +77,9 @@ export default function Footer() {
                     Mountain Glory, Society, Near MSEB Office, EON IT Park,
                     Road, Kharadi, Pune
                   </h2>
+                  <div className="flex my-2">
+                  <Phone /> <p > +91-9673544043</p>
+                  </div>
                 </li>
               </ul>
             </div>

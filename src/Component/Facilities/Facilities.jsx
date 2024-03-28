@@ -60,7 +60,7 @@ export default function Facilities() {
       </div>
       <div className='px-20 lg:flex justify-center items-center mt-6'>
         <img src={managOneImg} className='mr-4 shadow-xl' alt="not visible" />
-        <img src={managTwoImg} className='lg:h-[40em] relative shadow-xl my-4  ' alt="not visible" />
+        <img src={managTwoImg} className='lg:h-[40em] relative shadow-xl my-4' alt="not visible" />
       </div>
     </div>
   );
