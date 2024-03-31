@@ -12,7 +12,7 @@ export default function ContactUs() {
               We're here to assist you! If you have any questions or need assistance, please feel free to reach out to us.
               <br /><br />
               You can also email us. Click here to reveal email address{' '}
-              <a href="https://veilmail.io/e/FkKh7o" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">example@gmail.com</a>
+              <a href="" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">example@gmail.com</a>
             </p>
             <span className="inline-flex mt-6 justify-center sm:justify-start"></span>
           </div>
