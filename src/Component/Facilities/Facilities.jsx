@@ -6,8 +6,8 @@ import tvImg from '../../Component/Facilities/Images/tv.png'
 import waterImg from '../../Component/Facilities/Images/RO-water.png'
 import serviceImg from '../../Component/Facilities/Images/housekeeping.png'
 import supportImg from '../../Component/Facilities/Images/technical-support.png'
-import managOneImg from'../../Component/Facilities/Images/manag-rule.jpeg'
-import managTwoImg from'../../Component/Facilities/Images/manag-rule-2.jpeg'
+
+import OurPgs from './OurPgs';
 
 
 
@@ -46,6 +46,7 @@ export default function Facilities() {
     para: "We have well trained repair and maintenance team who cares about your comfort"
   }
 
+
   return (
     <div className='w-full h-auto bg-white'>
       <h2 className='text-center text-3xl font-bold text-blue-800 tracking-wide relative top-6'>Our Facilities</h2>
@@ -58,10 +59,9 @@ export default function Facilities() {
         <FacilitiesBox allData={support} />
 
       </div>
-      <div className='px-20 lg:flex justify-center items-center mt-6'>
-        <img src={managOneImg} className='mr-4 shadow-xl' alt="not visible" />
-        <img src={managTwoImg} className='lg:h-[40em] relative shadow-xl my-4' alt="not visible" />
-      </div>
+
+    <OurPgs />
+
     </div>
   );
 }

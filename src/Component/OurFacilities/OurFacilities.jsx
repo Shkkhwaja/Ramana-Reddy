@@ -1,5 +1,5 @@
 import React from 'react'
-import facilitiesImg from '../../Component/Images/Slider/img-4.jpeg'
+import facilitiesImg from '../../Component/Images/Slider/img-5.jpg'
 import wifiImg from '../../Component/Facilities/Images/wifi-1.png';
 import machineImg from '../../Component/Facilities/Images/washing-machine.png'
 import tvImg from '../../Component/Facilities/Images/tv.png'
@@ -7,8 +7,7 @@ import waterImg from '../../Component/Facilities/Images/RO-water.png'
 import serviceImg from '../../Component/Facilities/Images/housekeeping.png'
 import supportImg from '../../Component/Facilities/Images/technical-support.png'
 import FacilitiesBox from '../Facilities/FacilitiesBox';
-import managOneImg from'../../Component/Facilities/Images/manag-rule.jpeg'
-import managTwoImg from'../../Component/Facilities/Images/manag-rule-2.jpeg'
+
 
 export default function OurFacilities() {
     const wifi = {
@@ -46,7 +45,7 @@ export default function OurFacilities() {
       }
   return (
     <div>
-      <img src={facilitiesImg} className='w-full' alt="not" />
+      <img src={facilitiesImg} className='w-full h-[30em]' alt="not" />
       
       <div className='w-full h-auto bg-white'>
       <h2 className='text-center text-3xl font-bold text-blue-800 tracking-wide relative top-6'>Our Facilities</h2>
@@ -58,10 +57,6 @@ export default function OurFacilities() {
         <FacilitiesBox allData={service} />
         <FacilitiesBox allData={support}/>
 
-      </div>
-      <div className='px-20 lg:flex justify-center items-center mt-6'>
-        <img src={managOneImg} className='mr-4 my-10 shadow-xl' alt="not visible" />
-        <img src={managTwoImg} className='lg:h-[40em] relative shadow-xl my-4  ' alt="not visible" />
       </div>
     </div>
     </div>

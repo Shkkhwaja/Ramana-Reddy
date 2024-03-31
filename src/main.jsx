@@ -10,6 +10,7 @@ import AboutUs from './Component/AboutUs/AboutUs.jsx'
 import OurFacilities from './Component/OurFacilities/OurFacilities.jsx'
 import Gallery from './Component/Gallery/Gallery.jsx'
 import ContactUs from './Component/ContactUs/ContactUs.jsx'
+import OurPgs from './Component/Facilities/OurPgs.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,8 @@ const router = createBrowserRouter(
       <Route path='' element={<Home/>}/> 
       <Route path='aboutus' element={<AboutUs />}/> 
       <Route path='ourfacilities' element={<OurFacilities />}/> 
+      <Route path='ourpgs' element={<OurPgs />}/> 
+
       <Route path='gallery' element={<Gallery />}/> 
       <Route path='contactus' element={<ContactUs />}/> 
 

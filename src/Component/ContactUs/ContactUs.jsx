@@ -14,9 +14,6 @@ export default function ContactUs() {
               You can also email us. Click here to reveal email address{' '}
               <a href="https://veilmail.io/e/FkKh7o" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">example@gmail.com</a>
             </p>
-            <p className="leading-relaxed text-xl text-gray-900 mt-8">
-              We use VeilMail.io to protect your email address from spam.
-            </p>
             <span className="inline-flex mt-6 justify-center sm:justify-start"></span>
           </div>
           <div className="md:w-2/3 w-full mt-10 md:mt-0 md:pl-28">

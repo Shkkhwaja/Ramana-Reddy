@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutImg from '../../Component/Images/aboutus/aboutus.jpg'
-import cartOneIng from '../../Component/Images/aboutus/card-1.jpeg'
+import cartOneIng from '../../Component/Images/aboutus/cart-1.jpg'
 
 
 export default function AboutUs() {
@@ -12,9 +12,9 @@ export default function AboutUs() {
 </p>
      </div>
      <div className='flex'>
-    <img src={cartOneIng} className='h-[20em]' alt="not visible" />
-    <p className='my-[2em] mx-[4em] text-xl text-gray-900'>SLN Reddy’s PG   was established few Year ago with the idea of providing housing solutions to people who are new in metro cities. SLN Reddy’s   currently provides Hostels for students and Professional employees who are single. <br /> <br />
-SLN Reddy’s PG provides hostels at prime locations that are easily accessible from near by major employment and education hubs and IT Company.</p>
+    <img src={cartOneIng} className='h-[20em] my-4' alt="not visible" />
+    <p className='my-[2em] mx-[4em] text-xl text-gray-900'>Ramana Reddy Luxury was established few Year ago with the idea of providing housing solutions to people who are new in metro cities. Ramana Reddy Luxury currently provides Hostels for students and Professional employees who are single. <br /> <br />
+Ramana Reddy Luxury ovides hostels at prime locations that are easily accessible from near by major employment and education hubs and IT Company.</p>
      </div>
      </>
   )

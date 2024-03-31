@@ -89,6 +89,19 @@ function Header() {
 
               <li>
                 <NavLink
+                  to="ourpgs"
+                  className={({ isActive }) =>
+                    `block py-2 pr-4 pl-3 duration-200 ${
+                      isActive ? "text-orange-700" : "text-gray-700"
+                    } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                  }
+                >
+                  Our PG's
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
                   to="gallery"
                   className={({ isActive }) =>
                     `block py-2 pr-4 pl-3 duration-200 ${
@@ -176,9 +189,22 @@ function Header() {
 
               <li>
                 <NavLink
-                  to="gallery"
+                  to="ourpgs"
                   className={({ isActive }) =>
                     `absolute left-6 my-[8em] duration-200 ${
+                      isActive ? "text-orange-700" : "text-gray-700"
+                    } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                  }
+                >
+                  Our PG's
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  to="gallery"
+                  className={({ isActive }) =>
+                    `absolute left-6 my-[10em] duration-200 ${
                       isActive ? "text-orange-700" : "text-gray-700"
                     } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                   }
@@ -191,7 +217,7 @@ function Header() {
                 <NavLink
                   to="contactus"
                   className={({ isActive }) =>
-                    `absolute left-6 my-[10em] duration-200 ${
+                    `absolute left-6 my-[12em] duration-200 ${
                       isActive ? "text-orange-700" : "text-gray-700"
                     } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                   }
