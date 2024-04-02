@@ -5,7 +5,7 @@ export default function FacilitiesBox({ allData }) {
     <>
       <div class="h-[18em] w-[25em]  border-none bg-slate-100  shadow-md  rounded-lg mr-7 mb-12 ">
         <div class="flex justify-center relative top-5">
-          <img src={allData.logo} alt="not visible" className="align-middle" />
+          <img src={allData.logo} alt="not visible" className="align-middle h-[60px] w-[60px]" />
         </div>
         <h2 className="text-center relative top-7 text-[20px] text-blue-900 font-bold">
           {allData.heading}

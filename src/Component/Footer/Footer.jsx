@@ -23,22 +23,27 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link to="/about" className="hover:underline">
+                  <Link to="/aboutus" className="hover:underline">
                     About
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link to="/about" className="hover:underline">
+                  <Link to="/ourfacilities" className="hover:underline">
                     Our Facilities
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link to="/about" className="hover:underline">
+                  <Link to="/ourpgs" className="hover:underline">
+                    Our PG's
+                  </Link>
+                </li>
+                <li className="mb-2">
+                  <Link to="/gallery" className="hover:underline">
                     Gallery
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link to="/about" className="hover:underline">
+                  <Link to="/contactus" className="hover:underline">
                     Contact Us
                   </Link>
                 </li>
@@ -88,21 +93,10 @@ export default function Footer() {
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
             Google Map
               </h2>
-              <Link
-                to="https://www.google.com/maps/place/Amma+Saraswati+PG"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14458.409979472013!2d77.73501455739621!3d12.95397088354306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1f8a5f87db0f%3A0x79d9f1ef90383c0c!2sSri%20Laxmi%20Narasimha%20Reddy&#40;s%20PG!5e0!3m2!1sen!2sin!4v1648482801994!5m2!1sen!2sin"
-                  allowFullScreen=""
-                  aria-hidden="false"
-                  tabIndex="0"
-                ></iframe>
-              </Link>
+              
+              <iframe className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1304.3170968144026!2d73.9321112!3d18.5626712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c101400b556d%3A0xf2d14630b34439b1!2sAmma%20Saraswati%20PG!5e0!3m2!1sen!2sin!4v1648959818184" frameborder="0" allowfullscreen></iframe>
+
             </div>
-           
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />

@@ -2,7 +2,7 @@ import React from 'react';
 import FacilitiesBox from './FacilitiesBox';
 import wifiImg from '../../Component/Facilities/Images/wifi-1.png';
 import machineImg from '../../Component/Facilities/Images/washing-machine.png'
-import tvImg from '../../Component/Facilities/Images/tv.png'
+import doorImg from '../../Component/Facilities/Images/door.png'
 import waterImg from '../../Component/Facilities/Images/RO-water.png'
 import serviceImg from '../../Component/Facilities/Images/housekeeping.png'
 import supportImg from '../../Component/Facilities/Images/technical-support.png'
@@ -24,10 +24,10 @@ export default function Facilities() {
     para: "We provide you, automatic Washing Machine to wash and dry at your convenience and comfort"
   }
 
-  const tv ={
-    logo: tvImg,
-    heading: "TV",
-    para: "We have TV with dish connected on it so that whenever you feel alone or get bored then you can enjoy the TV."
+  const door ={
+    logo: doorImg,
+    heading: "Biometric Door",
+    para: "We provide Enhance the security of your premises with our advanced Biometric Door Access Control system."
   }
 
   const water ={
@@ -53,7 +53,7 @@ export default function Facilities() {
       <div className='ml-6 mt-20 align-center justify-center flex flex-wrap'>
         <FacilitiesBox allData={wifi} />
         <FacilitiesBox allData={machine} />
-        <FacilitiesBox allData={tv} />
+        <FacilitiesBox allData={door} />
         <FacilitiesBox allData={water} />
         <FacilitiesBox allData={service} />
         <FacilitiesBox allData={support} />
